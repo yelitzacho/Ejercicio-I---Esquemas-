@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	padding: 0;	
+}
+
+.divFather{
+	position: relative;
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	margin: 10px;
+}
+
+.divChild{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	top: 25%;
+	left: 25%;
+	background-color: purple;
+}
+
+.divGrandChild {
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+
+.divFather2{
+	position: relative;
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+	margin: 10px;
+}
+
+.divChild2{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	top: 25%;
+	left: 25%;
+	background-color: green;
+}
+
+.divGrandChild2{
+	position: absolute;
+	top: -50px;
+	left: -50px;
+	height: 50px;
+	width: 50px;
+	background-color: black;
+}
